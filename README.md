@@ -1,7 +1,14 @@
 # fatfs-example
 elm chan fatfs example 
 
-This is generic example of fatfs on linux.
+This is generic example of fatfs on linux in order to learn basic behavior of fatfs.
+
+The backend (diskio.c) is constructed with "open, read, write, close, lseek" basic Unix API.
+So it is very simple for beginners to use fatfs.
+
+
+
+In order to build,
 
 ```
 % make
@@ -12,7 +19,7 @@ several commands are generated.
 ```
 % ./fmkfs     
 ```
-the generated disk image is abc.dat.
+the generated disk image is abc.dat. At first, it opens "abc.dat" and writes 512 bytes data with zero value SECTORCOUNT times. Then it call f_mkfs with super floppy and fat options.
 ```
 % ls abc.dat
 abc.dat
