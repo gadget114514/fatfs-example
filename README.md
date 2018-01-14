@@ -3,21 +3,30 @@ elm chan fatfs example
 
 This is generic example of fatfs on linux.
 
+```
 % make
+```
+several commands are generated.
 
 - create disk image
+```
 % ./fmkfs     
-
+```
+the generated disk image is abc.dat.
+```
 % ls abc.dat
 abc.dat
+```
 
 - test commands
+```
 % ./mkd
 % ./cf
 % ./rf
 % ./cf2
 % ./rf2
 % ./rd
+```
 
 ...
 
