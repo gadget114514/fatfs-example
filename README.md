@@ -3,7 +3,7 @@ elm chan fatfs example
 
 This is generic example of fatfs on linux in order to learn basic behavior of fatfs.
 
-The backend (diskio.c) is constructed with "open, read, write, close, lseek" basic Unix API.
+The backend (diskio.c) is constructed with "open, read, write, close, lseek" basic POSIX APIs.
 So it is very simple for beginners to use fatfs.
 
 
