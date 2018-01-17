@@ -49,3 +49,6 @@ abc.dat
 - the sector count is 128 and format is super floppy image and fat12.
    you can see disk_ioctl() in diskio.c. it returns 512 as sector size
    and 128 as sector count.
+   
+- fatfs_error_to_string comes from fatfs-linux-boot-image utilities named .....
+
