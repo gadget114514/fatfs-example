@@ -19,7 +19,7 @@ several commands are generated.
 ```
 % ./fmkfs     
 ```
-the nate of generated disk image is abc.dat. At first, the command opens "abc.dat" and writes 512 bytes data with zero value SECTORCOUNT times. Then it call f_mkfs with super floppy and fat options.
+the name of generated disk image is abc.dat. At first, the command opens "abc.dat" and writes 512 bytes data with zero value SECTORCOUNT times. Then it call f_mkfs with super floppy and fat options.
 ```
 % ls abc.dat
 abc.dat
